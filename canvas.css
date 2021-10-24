@@ -1,0 +1,25 @@
+.paint-canvas {
+    border: 1px black solid;
+    display: block;
+    margin: 1rem;
+  }
+  
+  .color-picker {
+    margin: 1rem 1rem 0 1rem;
+    
+  }
+
+  .js-line-range {
+    width: 30px;
+  }
+
+  body {
+    background: linear-gradient(#e66465, #9198e5);
+  }
+
+  #canvas {
+background-color: rgb(255, 255, 255);
+border: linear-gradient(#e66465, #0015ff) ;
+border-radius: 15px;
+border-width: 15px;
+  }

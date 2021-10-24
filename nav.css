@@ -1,0 +1,19 @@
+img{
+    transition:transform 0.9s;
+    width: 200; 
+    height: 200;
+    border-radius: 30px;
+        
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/134196.jpg");
+}
+ 
+h1 {
+    color: whitesmoke;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link href="breathe.css" rel="stylesheet">
+    <title>Meditation App</title>
+  </head>
+  <body>
+    <div class="input">
+      <label>Select Breaths</label>
+      <select class="breath-input">
+        <option value="3">3 Breaths</option>
+        <option value="5">5 Breaths</option>
+        <option value="7">7 Breaths</option>
+      </select>
+    </div>
+    <div class="circle-wrap">
+      <div class="circle-outline"></div>
+      <div class="circle-progress"></div>
+    </div>
+    <p class="breaths">Breaths remaining: <span class="breaths-text">3</span></p>
+    <p id="speak" class="instructions">Are you ready to start breathing?</p>
+    <button onclick = "playmusic()" class="start">Begin</button>
+    <audio id="myAudio" src="mixkit-page-forward-single-chime-1107.wav"></audio>
+    
+    
+<br> 
+<br>
+
+    <span>
+      <button id = "btn-1">Background 1</button>
+    
+      <button id = "btn-2">Background 2</button>
+   
+      <button id = "btn-3">Background 3</button>
+
+    </span>
+    
+    <script src="breathe.js"></script>
+    
+  </body>
+</html>
+
+
